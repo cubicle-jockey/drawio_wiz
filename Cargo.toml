@@ -1,0 +1,12 @@
+[package]
+name = "drawio_wiz"
+version = "0.1.0"
+edition = "2024"
+authors = ["cubicle-jockey"]
+description = "A CLI tool to generate empty draw.io diagrams"
+license = "MIT"
+keywords = ["drawio", "cli", "diagram", "wizard"]
+categories = ["command-line-utilities"]
+
+[dependencies]
+clap = { version = "4.5.39", features = ["derive", "cargo"] }
